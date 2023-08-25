@@ -31,7 +31,22 @@
             </div>
         </div>
         <div class="seccion" id="seccion-radio">
-            <div class="ejemplo">xd</div>
+            <!--https://sistemahost.com/generador.php-->
+            <div class="ejemplo">	
+                <div class="reproductor">			
+                    <link href="https://sistemahost.com/playergenerator/css/myCast.min.css" rel="stylesheet" type="text/css">
+                    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">
+                    <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+                    
+                    <div class="myCast" id="player"></div>
+                    <script src="https://sistemahost.com/playergenerator/js/myCast.min.js"></script>
+                    <script> 
+                    $('#player').myCast({ 
+                        URL: 'https://', version: '2', mount_point: '', vertical_layout: false, 
+                        bg: 'grey', accent: 'grey', autoplay: false, }); 
+                    </script>
+                </div>
+            </div>
         </div>
         <div class="seccion" id="seccion-ubicacion">
             <div class="texto-horarios">

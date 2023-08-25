@@ -102,11 +102,18 @@ body {
     display:none;
 }
 .ejemplo {
+    display:flex;
+    justify-content:center;
+    align-items:center;
     background-color:#0C1821;
     height:250px;
     border-radius:5px;
     border:1px solid;
     width:80%;
+}
+.reproductor {
+    z-index:3;
+    width:250px;
 }
 .ejemplo2 {
     background-color:#0C1821;
