@@ -15,8 +15,8 @@ body {
     position:fixed;
     background-color:#18181B;
     min-height:80vh;
-    min-width:225px;
-    max-width:250px;
+    min-width:280px;
+    max-width:300px;
     height: 100vh;
     box-shadow: 0 0 8px rgba(0,0,0,.8);
     opacity:0;
@@ -44,7 +44,7 @@ body {
     height:90%;
 }
 .portada h1 {
-    width:75%;
+    width:100%;
     font-family:sans-serif;
     color:#A1A1AA;
     text-align:center;
