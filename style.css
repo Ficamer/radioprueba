@@ -118,6 +118,8 @@ body {
     background-color:rgb(28, 189, 138); 
     border-radius:8px;
     font-family:sans-serif;
+    font-size:13px;
+    padding:0px 15px 0px;
     font-weight:600px;
     display:flex;
     gap:25px;
@@ -134,15 +136,10 @@ body {
     justify-content:center;
     box-shadow:0 0 0 1px rgba(0,0,0,0.5);
     border-radius:5px;
+    font-size:13px;
     width:80%;
     text-align:center;
     height:25px;
-}
-#mas {
-    font-size:18px;
-    position:absolute;
-    top:2px;
-    right:10px;
 }
 .mapa {
     background-color:rgb(28, 189, 138); 
@@ -151,7 +148,8 @@ body {
     align-items:center;
     width:80%;
     border-radius:8px;
-    padding:35px 0 35px;
+    padding:35px 15px 35px;
+    font-size:13px;
 }
 #abrir-googlemaps {
     font-family:sans-serif;
