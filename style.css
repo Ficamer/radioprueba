@@ -112,6 +112,20 @@ body {
     border:1px solid;
     width:80%;
 }
+.texto-horarios {
+    width:80%;
+    height:75px;
+    background-color:rgb(28, 189, 138); 
+    border-radius:8px;
+    font-family:sans-serif;
+    font-weight:600px;
+    display:flex;
+    gap:25px;
+    justify-content:center;
+}
+.texto-horarios ul {
+    padding:0;
+}
 .texto-ubicacion {
     font-family:sans-serif;
     position:relative;
@@ -131,10 +145,13 @@ body {
     right:10px;
 }
 .mapa {
+    background-color:rgb(28, 189, 138); 
     display:flex;
     flex-direction:column;
     align-items:center;
-    width:100%;
+    width:80%;
+    border-radius:8px;
+    padding:35px 0 35px;
 }
 #abrir-googlemaps {
     font-family:sans-serif;
