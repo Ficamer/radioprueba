@@ -1,0 +1,6 @@
+Colores:
+Titulos: #8dbce9
+Contenedores: #18181B
+Fondo: #8dbce9
+Texto: #A1A1AA
+Texto-resaltado: #E4E4E7
